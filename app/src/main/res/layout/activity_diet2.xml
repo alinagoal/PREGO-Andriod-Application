@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inside_diet">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blurr"
+        android:alpha="0.6"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="PREGNANCY DIET"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="276dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/secondt" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="What to eat during the second trimester?"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="During the second trimester, people should continue eating a balanced diet. The following nutrients are the most important for someone who is pregnant:"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Iron"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="Iron helps to carry oxygen around the body. During pregnancy, iron supplies oxygen to the developing baby. If a diet is lacking in iron, it could cause anemia, which increases the risk of complications, such as premature birth and postpartum depression.
+The recommended daily iron intake during pregnancy is 27 milligrams (mg)."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Protein"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:text="When pregnant, people should aim to eat 75 to 100 grams (g) of protein each day to help the baby's brain, and other tissue, grow. Protein is also necessary for the growth of the mother's uterus and breasts.
+Good sources of protein include:lean meats,nuts,tofu and tempeh,eggs."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3. Calcium"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="The recommended dietary allowance for calcium during pregnancy is 1,000 mg. Calcium helps the baby's bones and teeth form, and it plays a role in the smooth running of the muscles, nerves, and circulatory system.
+Calcium-rich foods include:dairy (milk, yogurt, pasteurized cheese),eggs,tofu "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4. Vitamin"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="Vitamin D helps build a developing baby's bones and teeth. The recommended intake during pregnancy is 15 mcg a day. The body can make vitamin D from the sun, which allows many people to meet some of their needs. Vitamin D is not present in lots of natural foods, but fortified foods, such as cereal and milk, contain vitamin D.
+Food sources of vitamin D include:fatty fish, such as salmon, fresh tuna, and mackerel,fish liver ,oilsbeef liver "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="5. Folate "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:text="Oranges, whole grains, and dark green leafy vegetables contain folate. Folate is a B vitamin. The synthetic form of folate is called folic acid.
+Folate is essential during pregnancy as it helps prevent neural tube defects, including spina bifida, and reduces the risk of premature labor. The best sources include:
+•	black-eyed peas and other legumes
+•	fortified cereals
+•	dark green leafy vegetables, including spinach, cabbage, and collard greens
+•	oranges
+•	whole grains, such as rice
+ "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="6. Fluids "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:text="Pregnant people need more water than those who are not pregnant to stay hydrated. Water helps form the placenta and the amniotic sac. Dehydration during pregnancy can contribute to complications, such as neural tube defects and reduced breast milk production.
+Anyone who is pregnant should drink at least 8 to 12 glasses of water a day to prevent dehydration and its complications. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7.  Omega-3 fatty acids"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:text="Both mother and baby can benefit from omega-3 fats in the diet. These essential fatty acids support the heart, brain, eyes, immune system, and central nervous system. Omega-3 may prevent early delivery, lower the risk of developing preeclampsia, and decrease the likelihood of postpartum depression.Omega-3 fatty acids are present in:
+•	oily fish, including salmon, mackerel, fresh tuna, herring, and sardines
+•	fish oil
+•	flaxseeds
+•	chia seeds
+Seeds contain a form of omega-3 that the body needs to convert before it can use it. How well the body can do this varies from person to person."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

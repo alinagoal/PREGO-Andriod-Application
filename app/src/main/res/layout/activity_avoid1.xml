@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inside_diet">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blurr"
+        android:alpha="0.6"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="PREGNANCY DIET TO AVOID"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="276dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/avoid" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="What foods should women avoid during this time?"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="There are prominent foods that need to be avoided from beginning to end of pregnancy, from trimester 1 to trimester 3. This is because expectant mothers are at higher risk of illness due to pregnancy and the unborn children are more susceptible to illness. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="•	Any raw foods (ensure all meats are cooked thoroughly without any pink bits)"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="•	Raw seafood (sushi, sashimi, oysters, shellfish)"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="•	Soft cheeses (brie, camembert, ricotta, fetta), deli /cured meats (turkey slices, ham, salami, etc.)"
+                android:textColor="#000"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="•	Soft boiled or poached eggs, eggs with raw foods (mayonnaise, aioli, mousse, cake/pancake batters)"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="•	Lightly cooked or raw bean sprouts (including alfalfa, broccoli, onion, peas, mung, soybean)"
+                android:textColor="#000"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="•	Alcohol (no safe level) as it is a toxic and could result in birth defects, foetal alcohol syndrome "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="•	Avoid taking vitamin A supplements (particularly retinol) or fish liver oil supplements as these are harmful to the baby’s growth and development and can cause deformities - especially in high doses "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="•	Regular amounts of high sugar foods which do not contribute to fuelling the child's growth. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="• Raw seafood (sushi, sashimi, oysters, shellfish) "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="• High mercury fish: swordfish, tilefish, king mackerel, shark. However, fully cooked salmon, catfish, cod and tuna are fine to eat	 "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="•	Soft serve ice creams, unpasteurised products (milk and dairy products)	 "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PREGO</string>
+    <string name="title_activity_menu_drawer">menu_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_nav">menu_nav</string>
+    <string name="about">As pregnancy is the most amazing time in any woman\'s life,PREGO is one of the application that helps woman to stay healthy and know about different information related to pregnancy and diet.This application basically consists of the information about pregnancy diet,exercises,symptoms recorder and of course beauty tips to make you feel beautiful inside out.  </string>
+    <string name="text_dec">inside_diet</string>
+    <string name="sunday">Having a balanced diet is always important regardless of pregnancy or not, so it is important to note that healthy eating (fruit, vegetables, low saturated fat, recommended amounts of protein, high quality carbohydrates, lean meats, healthy fats, grains, dairy, keeping hydrated, etc.) doesn’t and shouldn’t change specifically for a pregnancy. In actual fact, there is no recommendation for extra calorie intake during your first trimester.</string>
+    <string name="monday">•	Ginger or foods/drinks containing ginger which has anti-nausea properties that can definitely help with curbing such symptoms
+•	Dry foods such as crackers, biscuits, jelly, low sugar flavoured popsicles
+•	Plain vegetables or fruits
+        •	Lemons which can be eaten, sipped with herbal teas, sucked or sniffed.</string>
+    <string name="tuesday">Why It’s Important: Spinach is high in folic acid, which is crucial in allowing your baby’s neural tube to properly fuse in the first month after conception.
+</string>
+    <string name="wednesday">Why They’re Important: Protein is important during each trimester, as it aids in the proper growth of your baby’s tissue and muscle.
+Tips to Incorporate Them Into Your Diet: Lentil soup is the most obvious way to chow down on this legume, but you can also try making lentil burgers with spinach!
+</string>
+    \
+    <string name="thursday">Why They’re Important: Aside from being an excellent source of protein, eggs are high in calcium and Vitamin D as well, both of which are needed for your baby to properly form bones.
+Tips to Incorporate Them Into Your Diet: Add hard-boiled eggs to your tuna salad (obviously watching your intake of tuna during pregnancy), or bake a frittata on the weekend with your favorite veggies.
+</string>
+    <string name="friday">Why It’s Important: Yogurt is high in calcium and Vitamin D, and eating it ensures your body is getting enough, which prevents your baby from having to “steal” it from your bones.
+Tips to Incorporate It Into Your Diet: Top a cup of yogurt with your favorite granola and some berries. Or make a smoothie. And you could always freeze vanilla yogurt mixed with chocolate chips for an alternative to ice cream.
+
+</string>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first_trimester"
+    android:background="@drawable/blurr">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="FIRST TRIMESTER WORKOUT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textSize="19sp" />
+
+
+            <VideoView
+                android:id="@+id/videoView2"
+                android:layout_width="358dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.125" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="Staying healthy and fit when you're pregnant is one of the best thing you can do for yourself and your baby.So watch this video for the first trimester workout."
+                android:textColor="#000"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Exercising safely in the first trimester "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:text=" In your first trimester, you probably don’t look pregnant yet, so make sure your exercise coaches and workout buddies know that you’re expecting.
+It can help to do a warm up. Five minutes of stretching before your workout will help your muscles prepare for exertion. You should also do a cool down. For the last 5 minutes of a 30-minute workout, switch to slower exercise and stretch any tight muscles. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Get enough calories: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Exercise burns calories, so be sure to eat well to nourish and strengthen your body. When you're pregnant, you naturally gain weight as your baby grows. The amount you need to gain varies based on your pre-pregnancy weight. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3. Don't lie flat on your back "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:text="After the first trimester, avoid exercising while lying flat on your back. The weight of your uterus puts pressure on a major vein called the vena cava, which can reduce blood flow to your heart and may diminish blood flow to your brain and uterus. This can make you dizzy, short of breath, or nauseated. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4.Get up from the floor slowly "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Your center of gravity shifts as your belly grows, so it's important to take extra care when you change positions. Getting up too quickly can make you dizzy and may cause you to lose your footing and fall. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

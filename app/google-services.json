@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "195308439387",
+    "firebase_url": "https://prego-d7285.firebaseio.com",
+    "project_id": "prego-d7285",
+    "storage_bucket": "prego-d7285.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195308439387:android:68e31b90483221e4b93c7e",
+        "android_client_info": {
+          "package_name": "com.alinadangol.pre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195308439387-0kku3e89pg70iqjrvm1o47lhkc9j8glg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alinadangol.pre",
+            "certificate_hash": "b042b8a964ca99ce957db9fcfce530370fdd5e4f"
+          }
+        },
+        {
+          "client_id": "195308439387-plrd6iqh7vhapfd6q86g6jidlse76buk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABeWh2TtTmDD11m_yAID4rMv0XwkQ1Ags"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195308439387-plrd6iqh7vhapfd6q86g6jidlse76buk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

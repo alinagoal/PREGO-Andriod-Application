@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first_trimester"
+    android:background="@drawable/blurr">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="THIRD TRIMESTER WORKOUT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textSize="19sp" />
+
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="358dp"
+                android:layout_height="242dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="This is the workout exercise for the Third trimester. Please do follow every steps carefully to stay fit and healthy as it is the most crucial peroid of a woman."
+                android:textColor="#000"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Other safe exercises in the third trimester: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Squats "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="255dp"
+                android:text="Squatting is one of the best exercises you can do to keep yourself fit from the start of your pregnancy to the right up until delivery. Many doctors and midwives make women squat to use the natural force of gravity to move the baby into the lower pelvis and to help it open up. To help you with squats, grab the back of a chair with both hands to stabilize yourself and use a floor mat for some soft cushioning if you need it. Stand in a way that your feet are shoulder width apart and the toes should point a little off to the sides and not parallel to each other. With the support of your chair, go down while bending at your knees and bring your bottom as low as it is comfortable for you. Stay in this position for about 20 seconds and while still holding the chair, slowly go back to the standing position. Squats strengthen all the muscles in the legs, lower back, and the abdomen. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Swimming and Other Pool Exercises  "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="310dp"
+                android:text="Water’s buoyancy lightens your body and takes the stress off your joints and weak muscles, allowing you to perform exercises which you otherwise cannot do. Before you begin, ensure that you are in water that is at least up to your chest so that it can support your weight. Try these two exercises:
+->Back float: The purpose of this exercise is to take the stress off your body and help it relax and recover. When in water lean back and bring your knees up while stretching your arms out until you float. As you float, relax and breathe deeply for 2 to 3 minutes to help you unwind.
+->Scissor leg stretch: This exercise is good for your groin muscles and the muscles of your inner thigh and lower back. Stand with your back against the wall of the pool and your arms stretched out to the sides grabbing the edges of the wall. Raise both the legs until they form a rough “L” with your upper body. Now spread them out in the form of a “V” as far as possible and bring them back together. Do this 10-12 times and lower your legs back."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3.Marjaryasana (Cat -Cow Pose)  "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:text="A cat-cow yoga pose is a gentle exercise that can be performed in the third trimester of pregnancy. The cat pose is effective in relieving lower back pain. It also helps in orienting your baby to the right position for birth. To perform this exercise, start on your hands and knees. Use a floor mat to perform this exercise and avoid stressing your knees. Place your hands and knees shoulder width apart on the mat and your head should be positioned down facing the floor. Take a breath and as you exhale arch your back like a cat while pulling your belly up toward your spine. Your head and hips are pulled in while you maintain the arched position for a few seconds. As you take your next breath inside bring your back and hips to the original position. Repeat the exercise 5 to 8 times. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4.  Walking and Stair Climbing  "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:text=" Walking is the easiest of all the exercises, especially when you cannot do the other exercises. Walking will help you stay fit throughout your pregnancy. All you really need for it is a pair of shoes and a sidewalk or a park. Walking is low impact and one of the safest exercises. It can be done even when a woman is 38 weeks pregnant. Just walk at a comfortable pace."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+

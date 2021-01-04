@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inside_diet">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blurr"
+        android:alpha="0.6"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="HEALTH PROBLEMS AND SOLUTIONS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/healthp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Constipation in pregnancy: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="The hormonal changes in your body may cause you to become constipated very early on in your pregnancy."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding constipation: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="To help prevent constipation, you can:
+•	eat foods that are high in fibre, such as wholemeal breads and cereals, fruit and vegetables, and pulses such as beans and lentils – read more about having a healthy diet in pregnancy
+•	exercise regularly to keep your muscles toned – read more about exercise in pregnancy
+•	drink plenty of water
+•	avoid iron supplements"
+            android:textColor="#000"
+            android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Cramp in pregnancy: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Cramp is a sudden, sharp pain, usually in your calf muscles or feet. It's most common at night. Nobody really knows why it happens, but there are some ideas about causes of cramp and why it can occur in pregnancy. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding cramp: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="Regular gentle exercise in pregnancy, particularly ankle and leg movements, will improve your circulation and may help prevent cramp. Try these foot exercises:
+•	bend and stretch your foot vigorously up and down 30 times
+•	rotate your foot 8 times one way and 8 times the other way
+•	repeat with the other foot. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3. Feeling faint in pregnancy: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:text=" Pregnant women can often feel faint. This is due to hormonal changes. Fainting happens if your brain is not getting enough blood and, therefore, not enough oxygen.
+You are most likely to feel faint if you stand up too quickly from a chair or out of a bath, but it can also happen when you are lying on your back. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Avoiding feeling faint:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:text=" Here are some tips to help avoid feeling faint:
+•	try to get up slowly after sitting or lying down
+•	if you feel faint when standing still, find a seat quickly and the faintness should pass – if it doesn't, lie down on your side
+•	if you feel faint while lying on your back, turn onto your side
+It's better not to lie flat on your back in later pregnancy or during labour. You should avoid going to sleep on your back after 28 weeks as it has been linked to a higher risk of stillbirth."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4. Varicose veins in pregnancy:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="Varicose veins are veins that have become swollen. They can be uncomfortable but aren't harmful. They most commonly affect leg veins.
+You can also get varicose veins in the vaginal opening (vulva), although these usually get better after the birth. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding Varicose veins "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:text="•	avoid standing for long periods of time
+•	try not to sit with your legs crossed
+•	try not to put on too much weight, as this increases the pressure
+•	sit with your legs up as often as you can to ease the discomfort
+•	try compression tights, which you can buy at most pharmacies – they won't prevent varicose veins but can ease the symptoms
+•	try sleeping with your legs higher than the rest of your body – use pillows under your ankles or put books under the foot of your bed
+•	do foot and other antenatal exercises, such as walking and swimming, which will help your circulation. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="5. Back pain in pregnancy "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:text=" It is very common to get backache or back pain during pregnancy, especially in the early stages.
+During pregnancy, the ligaments in your body naturally become softer and stretch to prepare you for labour. This can put a strain on the joints of your lower back and pelvis, which can cause back pain."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding back pain: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:text=" •	bend your knees and keep your back straight when you lift or pick something up from the floor
+•	avoid lifting heavy objects
+•	move your feet when you turn to avoid twisting your spine
+•	wear flat shoes to evenly distribute your weight
+•	try to balance the weight between 2 bags when carrying shopping
+•	keep your back straight and well supported when sitting at work and at home – look for maternity support pillows"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" 6. Heartburn and indigestion:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Heartburn is a very common and uncomfortable problem during pregnancy. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding heartburn and indigetion: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="•	You can relieve heartburn with an antacid solution or tablets. Ask your pharmacist, doctor or midwife to recommend a product that is suitable to use in pregnancy.
+•	You can also try to avoid heartburn by eating small meals, and avoiding fatty and spicy foods.
+•	Heartburn can be worse if you lie down after a big meal.
+•	Raising the head of your bed by about 15 cm may help with heartburn at night. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7. Vaginal thrush:  "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:text="Many women notice that they have an increased vaginal discharge during pregnancy.
+This is quite normal, unless the discharge becomes thick, is itchy, uncomfortable or has an unpleasant smell. If you have any of these symptoms, please speak to your doctor or midwife, as this may be a sign of a vaginal infection called thrush. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding vaginal thrush: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="•	apply a cold compress to the itchy, inflamed area
+•	eat natural yoghurt that contains cultures such as acidophilus and bifidus - these cultures help to restore the balance of 'good' bacteria in your vagina and stop the overgrowth of thrush,
+•	wear cotton underwear."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" 8. Peeing a lot in pregnancy:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Needing to pee a lot often starts in early pregnancy and sometimes continues until the baby is born. In later pregnancy, it's caused by the baby's head pressing on your bladder. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Reduce the need to pee: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:text=" If you find you need to get up in the night to pee, try cutting out drinks in the late evening. However, make sure you drink plenty of non-alcoholic, caffeine-free drinks during the day.
+Later in pregnancy, some women find it helps to rock backwards and forwards while they're on the toilet. This lessens the pressure of the womb on the bladder so you can empty it properly."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="9. Teeth and gums problems: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:text="Some women get swollen and sore gums, which may bleed, in pregnancy. Bleeding gums are caused by a build-up of plaque on the teeth.
+Hormonal changes during pregnancy can make your gums more vulnerable to plaque, leading to inflammation and bleeding.  "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding teeth and gums problems: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text=" •	Clean your teeth carefully twice a day for two minutes with fluoride toothpaste – ask your dentist to show you a good brushing method to remove all the plaque.
+•	Brushing is best with a small-headed toothbrush with soft filaments – make sure it's comfortable to hold.
+•	Avoid having sugary drinks (such as fizzy drinks or sweet tea) and sugary foods too often – try to keep them to meal times.
+•	If you're hungry between meals, snack on vegetables and avoid sugary or acidic foods (get tips on healthy snacks).
+•	Avoid mouthwashes that contain alcohol."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="10.Headaches in pregnancy: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text=" Some pregnant women find they get lots of headaches. They are most common in early pregnancy and usually improve or stop completely during the last 6 months.
+They don't harm your baby, but they can be uncomfortable for you."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Avoiding headaches: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:text="Paracetamol is the first choice of painkiller if you're pregnant or breastfeeding. It's been taken by many pregnant and breastfeeding women with no harmful effects in the mother or baby.
+However, for safety, if you take paracetamol in pregnancy or while breastfeeding, take it for the shortest possible time.
+You can get advice from your pharmacist, midwife or GP about how much paracetamol you can take and for how long. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

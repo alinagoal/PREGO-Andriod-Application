@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inside_diet">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blurr"
+        android:alpha="0.6"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="PREGNANCY DIET"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="276dp"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/third" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="What to eat during the THIRD trimester"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="As your bump gets bigger, you'll probably need to eat a little more to make sure you're getting enough energy. Try our delicious ideas to make sure you and your baby are getting all the nutrition you need. n your third trimester (28 weeks-plus), vitamin C, fibre, vitamin K and thiamine (vitamin B1) are especially important. You'll be getting enough of these nutrients if you have a varied, healthy diet. Remember that you need an extra 200 calories a day at this stage of your pregnancy.
+
+
+"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Fruit"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tuck in to fresh fruit. It's bursting with vitamin C, as well as fibre. Slice fruit such as kiwis, strawberries, melon and papaya, and take to work for a quick snack. Or pop a piece of fruit in your bag if time's short.
+Vitamin C helps your body to absorb iron from food and keeps your immune system in shape. It also plays a part in helping the placenta to develop and work properly.
+"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Bean chilli"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Use canned kidney, borlotti, cannellini or black-eyed beans to make a spicy chilli that's full of thiamine, iron and fibre. Add fresh tomatoes and peppers for vitamin C. Constipation is a common problem at this stage. So drink lots of water, decaffeinated drinks, juices or soups, and eat plenty of fibre-rich foods. Take gentle exercise such as walking and swimming, too."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3.Bacon sandwich"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A homemade lean bacon and tomato sandwich should hit the spot. Grill two rashers of unsmoked, thin-sliced bacon, and make a sandwich with fresh granary bread and sliced, vine-ripened tomatoes.Full of vitamin C and thiamine, and will give you the energy you need in these final few weeks of pregnancy."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4.Baked beans on wholemeal toast "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Have thiamine-packed baked beans on wholemeal or seeded toast. The fibre in this snack will help to keep constipation at bay and steady your energy levels throughout the day. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="5. Ham and tomato salad "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Choose thin slices of lean ham for a thiamine boost, and add to a vitamin-rich salad of tomatoes, radishes, sweetcorn and lettuce. Thiamine helps to release energy from the food that you eat. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="6. Lentils "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text=" Add cooked lentils to dhals, soups, stews and salads for a tasty thiamine and fibre boost. If you're buying a soup, check that it's low in salt, and make sure that you heat it through thoroughly before eating."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7. Seeds and nuts "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:text="If snacking on seeds and nuts isn't your thing, thiamine-packed sunflower seeds, and nuts such as walnuts and hazelnuts, are added to some breads, breakfast cereals and cereal bars. They also contain essential omega-3 fats.
+When choosing muesli, check that it has no added sugar, and add a handful of fresh fruit such as raspberries or kiwi fruit for extra vitamin C."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="8. Brussels sprouts "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Love them or hate them, the humble brussels sprout is a vitamin C and vitamin K-rich vegetable. Steam or microwave until just cooked as a side-dish, or slice and use in stir-fries with spring onions, ginger and garlic.
+Don't overcook vegetables, as it destroys some of the nutrients. Steam or microwave them to retain the goodness, and to prevent the vitamins from leaching out into the water. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

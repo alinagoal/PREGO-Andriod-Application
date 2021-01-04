@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inside_diet">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blurr"
+        android:alpha="0.6"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:text="PREGNANCY DIET"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="260dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/first" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="What nutrients are important during the first trimester?"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/sunday"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Foods that prevent, avoid or stop nausea and should be eaten include:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/monday"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Spinach"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/tuesday"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Lentils"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/wednesday"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3. Eggs"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/thursday"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4. Yoghurt"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/friday"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="5. Citrus Fruit "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:text=" Citrus fruit is also very high in folic acid, which can help prevent birth defects.
+Tips to Incorporate It Into Your Diet: Obviously, juices are the easiest way, but you can also use fresh lemon juice with olive oil for a clean and crisp salad dressing. Or try roasting a grapefruit — it’s delicious! And you can always slice up oranges for your salads, too."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="6. Cottage Cheese "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text=": Cottage cheese contains both calcium and protein, which are good for muscle and bone development.
+Tips to Incorporate It Into Your Diet: Cottage cheese isn’t just for eating straight up. It can be used in lasagnas (instead of ricotta), quiche, and even pancakes.   "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7. Broccoli "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="Broccoli is surprisingly high in iron, which is needed in the first trimester to form red blood cells in your baby.
+Tips to Incorporating It Into Your Diet: I love me some broccoli slaw. Follow your favorite coleslaw recipe and simply sub broccoli, or get creative and make your own with cranberries and nuts. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="8. Chicken "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="Chicken is high in iron, which creates red blood cells and helps your body get enough oxygen.
+Tips to Incorporate It Into Your Diet:Chicken is far too versatile for me to suggest any rarely heard ideas for consuming it! But do note that it’s best for pregnant women to eat organic, hormone-free meats during pregnancy."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Music"
+    android:background="@drawable/blurr">
+
+
+<!--    <TextView-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignParentBottom="false"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentLeft="false"-->
+<!--        android:layout_alignParentRight="false"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="false"-->
+<!--        android:layout_marginBottom="-4dp"-->
+<!--        android:layout_marginEnd="-19dp"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:layout_marginStart="22dp"-->
+<!--        android:layout_marginTop="18dp"-->
+<!--        android:text="My Music"-->
+<!--        android:textColor="@color/colorPrimaryDark"-->
+<!--        android:textSize="30dp" />-->
+
+    <ImageButton
+        android:id="@+id/voiceBtn"
+        android:layout_width="91dp"
+        android:layout_height="96dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="143dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="170dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_library" />
+
+    <Button
+        android:id="@+id/prettybtn"
+        android:layout_width="206dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="65dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/dietdesign"
+        android:onClick="playIT"
+        android:text="Pretty Baby" />
+
+    <Button
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="275dp"
+        android:background="@drawable/dietdesign"
+        android:onClick="playIT2"
+        android:text="My Sunshine" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="65dp"
+
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/dietdesign"
+        android:onClick="playIT3"
+        android:text="Maa" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/dietdesign"
+        android:onClick="playIT4"
+        android:text="Lori Lori" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/dietdesign"
+        android:onClick="playIT1"
+        android:text="Crazy Love" />
+
+
+</RelativeLayout>

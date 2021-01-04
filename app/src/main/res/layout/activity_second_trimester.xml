@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first_trimester"
+    android:background="@drawable/blurr">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="SECOND TRIMESTER WORKOUT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textSize="19sp" />
+
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="358dp"
+                android:layout_height="219dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="This is the workout exercise for the second trimester. Please do follow every steps carefully to stay fit and healthy."
+                android:textColor="#000"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Other forms of safe exercises: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Slow Jogging And Running: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="105dp"
+                android:text=" The second trimester is a good time for you to safely continue with light jogging.
+->At this stage, your uterus is getting large. This implies your center of gravity is shifting.
+->Ensure you run on a flat surface and in a place where you can easily sit down if needed."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Yoga:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:text="Yoga can be safely practiced in different forms throughout your pregnancy.
+->Keep your breathing slow and even.
+->Avoid any poses that may require too much stressing or make you feel dizzy.
+->Practice asanas that require you to be seated or lying down on your back. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3. Swimming: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="105dp"
+                android:text=" Swimming too can be safely continued if you have been swimming till now.
+->You can swim slowly initially to let your body warm up.
+->Try and practice light water aerobics that do not stress you out.
+->Simple swimming strokes will ensure your breathing is regular and your stamina is not lost."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4.  Weight Training:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:text="For this forward pull up exercise, you can use a very light weight or even a water bottle. In case you feel dizzy or uneasy, stop the exercise immediately and slowly sit down.
+->Place your left leg in front of you.
+->Bend the knees slightly.
+->Lower your upper body slowly towards your left knee.
+->Now rest your left hand on the left knee for support.
+->Keep your right arm straight down.
+->Now slowly lift it up, ensuring your right elbow is close to your body.
+->As you lift your arm your elbow should be pointing upward towards the ceiling.
+->Repeat a few times."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" 5.Exercise While Lying Down:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:text="This exercise during second trimester is very easy to follow as it requires you only to lie down.
+->Lie down slowly on your left side on a comfortable mat on the floor.
+->Bend your knees and hips at a 45 degree angle.
+->Keep your feet together.
+->Now raise your right knee as high as you can.
+->Ensure your pelvis does not move as you do so.
+->Pause and hold the position for a few seconds.
+->Return to the starting position.
+->Now repeat with the other side. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="6. Exercise While Sitting: "
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="You can easily do this exercise while sitting on a chair and resting.
+->Sit down comfortably on a chair.
+->Now lift up one of your legs and move it as if you are cycling.
+->Do this for about 20 times or less if you are not comfortable.
+->Slowly bring down your leg and return to the starting position.
+->Now repeat the same with the other leg. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

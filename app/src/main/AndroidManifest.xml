@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alinadangol.pre">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+
+
+
+        <activity android:name=".Login" >
+
+        </activity>
+
+
+        <activity android:name=".Signup" >
+
+        </activity>
+
+
+        <activity
+        android:name=".MainActivity"
+        android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+    <activity android:name=".menu"/>
+        <activity android:name=".inside_menu" />
+        <activity android:name=".inside_settings" />
+        <activity android:name=".inside_diet" />
+        <activity android:name=".inside_exercises" />
+        <activity android:name=".inside_health" />
+        <activity android:name=".inside_beauty" />
+        <activity android:name=".inside_symptoms" />
+        <activity android:name=".first_trimester" />
+        <activity android:name=".second_trimester" />
+        <activity android:name=".third_semester" />
+        <activity android:name=".avoid" />
+        <activity android:name=".ViewListContents" />
+        <activity android:name=".diet1" />
+        <activity android:name=".diet2" />
+        <activity android:name=".diet3" />
+        <activity android:name=".avoid1" />
+        <activity android:name=".Music" />
+    </application>
+
+</manifest>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inside_diet">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blurr"
+        android:alpha="0.6"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="BEAUTY TIPS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/beautytip" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=" Hope this will help you with ideas to enjoy your beauty during your special period. As it says, save the best for last, we would suggest you to SMILE. Being pregnant is not a disease, so be happy always that will make you look more beautiful!"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. Drinking Water – is the Mantra:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="During pregnancy you need to consume lots of water during a day. It will help in filtering and washing out all the toxins from your body. Further, water helps in maintaining the right amount of amniotic fluid in your body. If you have not yet added this essential tip, add it quickly, as this is good for you and your baby’s health. Drink at least 2 liters of water a day."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2. Right Food:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="You need to be extra cautious on what you are eating and how healthy it is during pregnancy. It’s advisable to consult your doctor for a diet chart, including lists of food types you need to concentrate on. Follow that chart religiously. Eat healthy, as it is important for the growth of your baby."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3. Sleep:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text=". Proper rest is very important, because that’s when your body and mind rejuvenates itself. Make sure you catch enough sleep that your body feels less fatigued. Make yourself comfortable when you go to sleep. Keep your posture right. You might want to use a maternity cushion or something equally comfortable while you sleep. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4. Right Weight:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="You need to watch your weight while pregnant. Some would be moms might take it as a chance to eat anything and everything without being worried about the weight. Weight gained by eating junk food definitely does not help. Always stick to a right diet, you can consult your doctor for better suggestions."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="5. Exercise"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="You might take it as a chance to eat anythinied about the weight. Weight gained by eating junk food definitely does not help. Always stick to a right diet, you can consult your doctor for better suggestions."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="6. Enhance Your Curves:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="Baby bumps are cute, flaunt them! While going out, make sure you dress in a way that enhances your curves. A woman’s body is beautiful during pregnancy. Pregnant belly gives them extra curves. Use this chance to wear dresses that hug your body nicely and shows off those beautiful curves."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="7. Skin Care:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:text="With all the hoopla during pregnancy, do not forget your skin. Beauty care during pregnancy includes skin care regimes, preferably plant-based or herbal, after regular intervals. Due to changes in hormones, there might be certain minor skin damages. You can use skin care products according to your skin type, but make sure the ingredients don’t list harmful chemicals."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="8. Make-Up:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="A woman can never go wrong with make-up! You have bags under your eyes, use a concealer. Got spots on face due to hormonal changes, foundation is a saviour. Make-up covers up for everything. Again, go with brands that do not use harsh chemicals in their products."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="9. Relax:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Last but most important point to remember is to relax! Include breaks in your schedule. Lie down for a while when you get the chance. Relax your body. Pregnancy can be very stressful, but make sure you do not let that get to you. The more relaxed you are, the prettier you look!"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

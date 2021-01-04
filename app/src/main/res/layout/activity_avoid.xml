@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first_trimester"
+    android:background="@drawable/blurr">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="WHERE TO START"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="If you didn’t exercise regularly before you got pregnant, now is the time to get in a habit that could serve you for a lifetime. Begin with a low level of exertion and work up to 30 minutes per day, 3 to 5 times per week. If possible, work with a trainer who has expertise in working out during pregnancy."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. PILATES"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="•	Pilates trains your body to be strong, flexible and balanced. It can help you address two of the challenges you’ll experience during pregnancy: balance and lower back pain. It also relaxes and controls your breathing which is important for pregnancy and labour. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/prena" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1.Yoga"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:text="Welcome to one of the best exercises you can do for yourself during pregnancy and for the rest of your life. Yoga builds strength and balance, keeps muscles limber, reduces blood pressure, and teaches you breathing rhythms that will help during delivery. Long after childbirth, as you enter menopause, yoga can help prevent osteoporosis by building bone mineral density.
+You should avoid:
+•	backbends
+•	poses that twist the abdomen
+•	any position where your feet are over your head, such as headstands
+•	lying on your back "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="3. Walking"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:text="	Walking is what our bodies are made for and it makes for great pregnancy exercise. An easy stroll gets you moving, and you can build upper body strength by swinging your arms. Get your heart pumping by picking up the pace. Whether you're on a trail or a treadmill, walking can safely help tone muscles and improve your mood. It's also something most women can do right up to delivery. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="4. Stationary bike and spin class"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="The problem during pregnancy is not getting on a bike — it’s falling off. Or, in the case of riding a bike on the streets, having an accident. That’s why stationary bikes and spin class are good options during your first trimester. Both are low-impact and get your heart moving without the dangers of the road. Go at a pace that feels right for you.
+Late in your first trimester, you may notice your center of gravity changing. Whether you’re on a stationary bike or spinning, check to see if the height of your handlebars is properly supporting your back, and adjust if needed. "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bike" />
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
